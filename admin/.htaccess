@@ -1,0 +1,5 @@
+AuthName "Page d'administration protegee"
+AuthType Basic
+AuthUserFile "C:\wamp64\www\tests\projet\admin\.htpasswd"
+Require valid-user
+

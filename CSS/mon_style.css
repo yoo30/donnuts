@@ -1,0 +1,61 @@
+.conteneur_miniature{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+
+/*.miniature{
+width: 20vw;
+height: 18vh;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-areas: 
+					 ".miniature_titre .miniature_titre .miniature_titre"
+					 ".image_miniature .image_miniature .image_miniature"
+					 ".miniature_date .miniature_date .miniature_date";
+
+border: 2px solid black;
+
+}
+
+.image_miniature{
+	grid-area: .image_miniature;
+	
+
+}
+
+.miniature_titre{
+	grid-area: .miniature_titre;
+}
+
+.miniature_date{
+	grid-area: .miniature_date;
+}
+*/
+.image_miniature img{
+	height:50px;
+    width: 50px;
+    justify-content: center;
+    border-radius: 40px;
+    box-shadow: 2px 2px 10px black;
+	
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	padding: 1em;
+
+}
+
+}
+
+.profil_container{
+display: flex;
+justify-content: center;	
+}
+
+.button {
+	margin: 0.5em;
+
+}
