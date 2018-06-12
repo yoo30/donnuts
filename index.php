@@ -17,7 +17,7 @@
     <?php include 'include/header.php';?>
   </header>
 
-<?php //var_dump($_SESSION); ?>
+
    <nav class="breadcrumb is-centered navbar is-primary" aria-label="breadcrumbs">
       <?php  include 'include/nav.php'; ?>   
   </nav>
